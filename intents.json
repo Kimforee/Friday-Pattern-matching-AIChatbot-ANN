@@ -1,0 +1,138 @@
+{
+    "intents":[
+    {
+        "tag":"greeting",
+        "patterns":["hello","hii","hey !","wake up","Friday","good morning", "good afternoon"
+        ],
+        "responses":["Hello Sir","How are you Sir","Whats up Sir",
+                     "I'm Ready to work Sir","Yes Sir","Hello!", "Hi there!", "Hey!", "Good to see you! How can I assist you today?"
+        ]
+    },
+    {
+        "tag":"farewell",
+        "patterns":["bye","goodbye","sleep","exit","bye Friday","Exit","initiate sleep"
+        ],
+        "responses":["Bye","Good bye Sir","Initiating sleep","Take care and have a great day!"
+        ]
+    },
+    {
+        "tag": "thanks",
+    "patterns":["Thanks","Thank you", "that's helpful","appreciate it"],
+    "responses": ["Happy to help", "Anytime!", "My pleasure","You're welcome!", "Glad I could help!"]
+    },
+    {
+        "tag": "",
+    "patterns": [""," "],
+    "responses": ["Sorry, can't understand you","please give me more information",
+     "i couldn't understand it properly"]
+    },
+    {
+        "tag": "time",
+    "patterns": ["what is the time","What's the time", "current time"],
+    "responses": ["time",
+     ""]
+    },
+    {
+        "tag": "wikipedia",
+    "patterns": ["what is","what's the","wikipedia","who is","who was","what was"],
+    "responses": ["wikipedia",
+     ""]
+    },
+    {
+        "tag": "health",
+    "patterns": ["how are you friday !","are you fine !","what's up !","how are you feeling"],
+    "responses": ["pretty fine sir","i am fine sir","I'm doing well, thank you!", "Feeling great today!", "All good on my end!",
+     "all good sir !"]
+    },
+    {
+        "tag": "excitement",
+        "patterns": ["wow!", "amazing!", "incredible!", "unbelievable!"],
+        "responses": ["That's fantastic!", "I'm thrilled!", "Isn't it exciting?"]
+    },
+    {
+        "tag": "curiosity",
+        "patterns": ["how does it work?", "tell me more", "I'm curious", "what's the story?"],
+        "responses": ["Let me explain!", "Here's the information you need.", "Would you like to know more?"]
+    },
+    {
+        "tag": "frustration",
+        "patterns": ["this is frustrating", "I'm so annoyed", "why is this not working?", "I can't figure it out"],
+        "responses": ["I understand your frustration.", "Let's find a solution together.", "Take a deep breath, we'll sort it out."]
+    },
+    {
+        "tag": "music",
+        "patterns": ["play music", "recommend some songs", "what's your favorite song"],
+        "responses": ["I can't play music, but I can suggest some songs!", "I don't have ears, but I appreciate good music!"]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["what's the weather like today", "is it going to rain", "weather forecast"],
+        "responses": ["The weather today is [weather_description].", "It looks like [weather_condition] today."]
+    },
+    {
+        "tag": "news",
+        "patterns": ["latest news", "what's happening in the world", "news update"],
+        "responses": ["Here are some headlines: [news_headlines]", "Let me fetch the latest news for you."]
+    },
+    {
+        "tag": "joke",
+        "patterns": ["tell me a joke", "say something funny", "make me laugh"],
+        "responses": ["Sure, here's a joke: [random_joke]", "Why did the chicken cross the road? To get to the other side!"]
+    },
+    {
+        "tag": "food",
+        "patterns": ["recommend a restaurant", "what's your favorite food", "recipe for [dish_name]"],
+        "responses": ["I don't eat, but I can suggest some great restaurants!", "I'm an AI, so I don't have taste buds, but I hear [restaurant_name] is good!"]
+    },
+    {
+        "tag": "movies",
+        "patterns": ["recommend a movie", "what's your favorite movie", "movie reviews"],
+        "responses": ["I can suggest some great movies! What genre are you interested in?", "I don't watch movies, but I can provide recommendations based on your preferences!"]
+    },
+    {
+        "tag": "technology",
+        "patterns": ["latest tech news", "tell me about [technology_topic]", "best gadgets"],
+        "responses": ["Here are some tech news: [tech_news]", "Let me find information about [technology_topic] for you."]
+    },
+    {
+        "tag": "sports",
+        "patterns": ["sports updates", "who won the latest game", "favorite sports team"],
+        "responses": ["Here are some sports updates: [sports_updates]", "I'm not really into sports, but I can provide you with the latest scores."]
+    },
+    {
+        "tag": "travel",
+        "patterns": ["best travel destinations", "recommend a vacation spot", "travel tips"],
+        "responses": ["Some popular travel destinations are [travel_destinations].", "I can provide you with travel recommendations based on your preferences!"]
+    },
+    {
+        "tag": "education",
+        "patterns": ["study tips", "how to learn [subject]", "best educational resources"],
+        "responses": ["Here are some study tips: [study_tips]", "I can help you find educational resources for [subject]."]
+    },
+    {
+        "tag": "pets",
+        "patterns": ["tell me about [pet_species]", "best pet breeds", "caring for [pet_species]"],
+        "responses": ["Here's some information about [pet_species]: [pet_info]", "I can provide you with recommendations for pet breeds based on your preferences."]
+    },
+    {
+        "tag": "motivation",
+        "patterns": ["I need motivation", "inspire me", "positive quotes"],
+        "responses": ["You're capable of amazing things!", "Believe in yourself, and you'll achieve great things!"]
+    },
+    {
+        "tag": "books",
+        "patterns": ["recommend a book", "favorite book genre", "book reviews"],
+        "responses": ["I can suggest some great books! What genre are you interested in?", "I don't read books, but I can provide recommendations based on your preferences!"]
+    },
+    {
+        "tag": "fitness",
+        "patterns": ["workout tips", "best exercises for [body_part]", "fitness goals"],
+        "responses": ["Here are some workout tips: [workout_tips]", "I can help you with your fitness goals and suggest exercises for [body_part]."]
+    },
+    {
+        "tag": "technology",
+        "patterns": ["latest tech news", "tell me about [technology_topic]", "best gadgets"],
+        "responses": ["Here are some tech news: [tech_news]", "Let me find information about [technology_topic] for you."]
+    }
+    ]
+}
