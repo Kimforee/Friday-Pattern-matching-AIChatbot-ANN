@@ -50,7 +50,7 @@ def main():
     probs = torch.softmax(output,dim=1)
     prob = probs[0][predicted.item()]
 
-    if prob.item() > 0.70:
+    if prob.item() > 0.40:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 reply = random.choice(intent["responses"])
